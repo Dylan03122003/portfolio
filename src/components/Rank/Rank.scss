@@ -1,0 +1,23 @@
+.tick__container {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.tick__item {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: gray;
+}
+
+.tick__ranked {
+  background-color: #98d8aa;
+  color: white;
+}
