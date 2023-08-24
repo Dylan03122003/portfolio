@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.80e6cdbf.css",
-    "main.js": "/static/js/main.003ed883.js",
+    "main.js": "/static/js/main.4ad21972.js",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
@@ -10,14 +10,17 @@
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/mapty.jpg": "/static/media/mapty.60dabcc49de30f4f0882.jpg",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
+    "static/media/postgresql.png": "/static/media/postgresql.1b904635aedb7c19150d.png",
     "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/food-order.jpg": "/static/media/food-order.82b6e28a23579004a5f5.jpg",
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
+    "static/media/bookstore.jpg": "/static/media/bookstore.c7b5d3da177b441c4550.jpg",
     "static/media/bankist.jpg": "/static/media/bankist.f0f3006e65327e6abacf.jpg",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/duong-logo.png": "/static/media/duong-logo.1fd77521233293b75441.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
     "static/media/calculator.jpg": "/static/media/calculator.e1a3656f6f28645fdead.jpg",
+    "static/media/mysql.png": "/static/media/mysql.d4280793e564eb898c0d.png",
     "static/media/bolt.png": "/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
@@ -28,15 +31,16 @@
     "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
     "static/media/figma.png": "/static/media/figma.152e55329b6f1915967e.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.80e6cdbf.css.map": "/static/css/main.80e6cdbf.css.map",
-    "main.003ed883.js.map": "/static/js/main.003ed883.js.map"
+    "main.4ad21972.js.map": "/static/js/main.4ad21972.js.map"
   },
   "entrypoints": [
     "static/css/main.80e6cdbf.css",
-    "static/js/main.003ed883.js"
+    "static/js/main.4ad21972.js"
   ]
 }

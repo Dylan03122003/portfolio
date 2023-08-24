@@ -2,7 +2,6 @@ import React from "react";
 import { TiTick } from "react-icons/ti";
 import "./Rank.scss";
 const Rank = ({ level = 2 }) => {
-  console.log(level);
   const ticks = [];
   for (let i = 0; i < 5; i++) {
     if (i < level) {
@@ -25,7 +24,7 @@ const Rank = ({ level = 2 }) => {
           key={i}
           className={`tick__item ${tick.isRanked ? "tick__ranked" : ""}`}
         >
-          <div>{tick.icon}</div>
+          <>{tick.icon}</>
         </div>
       ))}
     </div>

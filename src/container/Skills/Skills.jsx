@@ -7,12 +7,17 @@ import "./Skills.scss";
 
 const staticSkills = [
   { name: "React", icon: images.react, level: 4, bgColor: "#ecf9ff" },
+  { name: "Typescript", icon: images.typescript, level: 4, bgColor: "#ecf9ff" },
+  { name: "MUI", icon: images.mu5, level: 4, bgColor: "#ecf9ff" },
   { name: "Tailwind", icon: images.tailwind, level: 4, bgColor: "#ecf9ff" },
   { name: "JavaScript", icon: images.javascript, level: 4, bgColor: "#F5F3C1" },
-  { name: "Firebase", icon: images.firebase, level: 4, bgColor: "#F5F3C1" },
   { name: "HTML", icon: images.html, level: 4, bgColor: "#FFB26B" },
   { name: "CSS", icon: images.css, level: 4, bgColor: "#ecf9ff" },
-  { name: "Java", icon: images.java, level: 4, bgColor: "#ecf9ff" },
+  { name: "Nodejs", icon: images.node, level: 4, bgColor: "#E5F9DB" },
+  { name: "PostgreSQL", icon: images.postgresql, level: 4, bgColor: "#ecf9ff" },
+  { name: "MySQL", icon: images.mysql, level: 4, bgColor: "#ecf9ff" },
+  { name: "Firebase", icon: images.firebase, level: 3, bgColor: "#F5F3C1" },
+  { name: "Java", icon: images.java, level: 3, bgColor: "#ecf9ff" },
 ];
 
 const Skills = () => {

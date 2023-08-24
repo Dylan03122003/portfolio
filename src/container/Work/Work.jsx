@@ -7,15 +7,6 @@ import "./Work.scss";
 
 const staticWorks = [
   {
-    imgUrl: images.about01,
-    name: "name",
-    title: "Debt Tracker",
-    projectLink: "projectLink",
-    codeLink: "codeLink",
-    description: "This is an React app I built to keep track of debt.",
-    tags: ["React JS"],
-  },
-  {
     imgUrl: images.foodOrder,
     name: "name",
     title: "Food Order",
@@ -36,16 +27,6 @@ const staticWorks = [
     tags: ["Vanilla JavaScript"],
   },
   {
-    imgUrl: images.bankist,
-    name: "name",
-    title: "Bankist",
-    projectLink: "https://uiuxbankist.netlify.app",
-    codeLink: "https://github.com/Dylan03122003/Bankist",
-    description:
-      "This website is incredible. It includes a bunch of most features of a modern website nowadays.",
-    tags: ["UI/UX"],
-  },
-  {
     imgUrl: images.calculator,
     name: "name",
     title: "Calculator",
@@ -55,16 +36,26 @@ const staticWorks = [
       "This is just a simple calculator but looks like a modern calculator on our computer.",
     tags: ["Vanilla JavaScript"],
   },
+  {
+    imgUrl: images.bookstore,
+    name: "Bookstore",
+    title: "Bookstore",
+    projectLink: "https://bookstore-b2yq.onrender.com",
+    codeLink: "https://github.com/Dylan03122003/bookstore_client",
+    description:
+      "Welcome to our cutting-edge online bookstore – a digital haven for book enthusiasts that merges the charm of traditional bookstores",
+    tags: ["React JS"],
+  },
 ];
 
 const Work = () => {
   const [works] = useState(staticWorks);
   const [filterWork, setFilterWork] = useState([]);
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("React JS");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   useEffect(() => {
-    setFilterWork(staticWorks);
+    setFilterWork(staticWorks.filter((work) => work.tags.includes("React JS")));
   }, []);
 
   const handleWorkFilter = (item) => {

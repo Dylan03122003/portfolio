@@ -10,7 +10,11 @@ import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import mobile from "../assets/mobile.png";
 import mu5 from "../assets/mu5.png";
+import mui from "../assets/mui.png";
+import mysql from "../assets/mysql.png";
 import node from "../assets/node.png";
+import nodejs from "../assets/nodejs.png";
+import postgresql from "../assets/postgresql.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
@@ -32,6 +36,7 @@ import amazon from "../assets/amazon.png";
 import asus from "../assets/asus.png";
 import bankist from "../assets/bankist.jpg";
 import bolt from "../assets/bolt.png";
+import bookstore from "../assets/bookstore.jpg";
 import calculator from "../assets/calculator.jpg";
 import DuongLogo from "../assets/duong-logo.png";
 import firebase from "../assets/firebase.png";
@@ -70,6 +75,7 @@ export default {
   redux,
   sass,
   typescript,
+  bookstore,
   vue,
   about01,
   about02,
@@ -86,4 +92,8 @@ export default {
   skype,
   spotify,
   tailwind,
+  mui,
+  nodejs,
+  mysql,
+  postgresql,
 };
