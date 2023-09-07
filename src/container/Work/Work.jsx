@@ -16,16 +16,16 @@ const staticWorks = [
       "This website was built with a perfect design, nice looking where users can feel more appetizing when looking for food.",
     tags: ["UI/UX"],
   },
-  {
-    imgUrl: images.mapty,
-    name: "name",
-    title: "Mapty",
-    projectLink: "https://uiuxmapty.netlify.app",
-    codeLink: "https://github.com/Dylan03122003/Mapty",
-    description:
-      "With many friendly functionalities where users can keep track of their workout from place to place.",
-    tags: ["Vanilla JavaScript"],
-  },
+  // {
+  //   imgUrl: images.mapty,
+  //   name: "name",
+  //   title: "Mapty",
+  //   projectLink: "https://uiuxmapty.netlify.app",
+  //   codeLink: "https://github.com/Dylan03122003/Mapty",
+  //   description:
+  //     "With many friendly functionalities where users can keep track of their workout from place to place.",
+  //   tags: ["Vanilla JavaScript"],
+  // },
   {
     imgUrl: images.calculator,
     name: "name",
